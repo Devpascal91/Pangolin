@@ -1,0 +1,7 @@
+<h2>My Roles</h2>
+<div class="roles-menu">
+  <a *ngFor="let role of roles"
+    routerLink="/detail2/{{role.id}}">
+    {{role.name}}
+  </a>
+</div>
